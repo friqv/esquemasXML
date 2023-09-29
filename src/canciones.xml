@@ -1,0 +1,28 @@
+<!DOCTYPE canciones [
+        <!ELEMENT canciones (cancion)*>
+        <!ELEMENT cancion (nombre|album|artista|año)*>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT album (#PCDATA)>
+        <!ELEMENT artista (#PCDATA)>
+        <!ELEMENT año (#PCDATA)>
+        ]>
+<canciones>
+    <cancion>
+        <nombre>Que Se Muere Que Se Muere</nombre>
+        <album>Los Angeles</album>
+        <artista>Rosalía</artista>
+        <año>2017</año>
+    </cancion>
+    <cancion>
+        <nombre>Rezo por vos</nombre>
+        <album>Parte de la Religión</album>
+        <artista>Charly García</artista>
+        <año>1987</año>
+    </cancion>
+    <cancion>
+        <nombre>El lugar correcto</nombre>
+        <album>De Todas las Flores</album>
+        <artista>Natalia Lafourcade</artista>
+        <año>2022</año>
+    </cancion>
+</canciones>
